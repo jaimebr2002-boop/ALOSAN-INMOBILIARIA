@@ -14,8 +14,8 @@ export default function About() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop"
-                alt="Alosan Inmobiliaria Office"
+                src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop"
+                alt="Paisaje Rural Asturias"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
