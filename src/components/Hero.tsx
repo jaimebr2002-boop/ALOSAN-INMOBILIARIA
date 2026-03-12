@@ -78,7 +78,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-6 z-20"
+        className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-6 z-20"
       >
         <div className="flex items-center gap-6">
           <a 
@@ -99,7 +99,7 @@ export default function Hero() {
           </a>
         </div>
         
-        <div className="flex flex-col items-center gap-2">
+        <div className="hidden md:flex flex-col items-center gap-2">
           <span className="text-[10px] uppercase tracking-[0.3em] text-white/40">Descubrir</span>
           <div className="w-[1px] h-12 bg-gradient-to-b from-white/40 to-transparent" />
         </div>
